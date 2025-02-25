@@ -2,13 +2,13 @@ import { connect } from "cloudflare:sockets";
 
 // Variables
 const rootDomain = "alipastore.us.kg"; // Ganti dengan domain utama kalian
-const serviceName = "naravpn"; // Ganti dengan nama workers kalian
-const apiKey = "78f3950c47499c99ae123376439e3bcd4afcd"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "contact@alipastore.us.kg"; // Ganti dengan email yang kalian gunakan
+const serviceName = "alshi"; // Ganti dengan nama workers kalian
+const apiKey = "9cpQmATB4aB36Nk0jZT0hUcCrtlPXx1TttX9taRZ"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "aalipa803@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "79eb4cd54fca161986e3a15b6c4c4f65"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "13cee89f6631710a5509afcf37ad444f"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 let cachedProxyList = [];
 
 // Constant
